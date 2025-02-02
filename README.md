@@ -48,6 +48,8 @@ Run the following command to start the speaker diarization pipeline:
 # Use "microphone:ID" to select a non-default device
 # See `python -m sounddevice` for available devices
 diart.stream microphone
+or 
+diart.stream \path\to\wavfile
 ```
 For more features or details, refer to the diart documentation [1]. Briefly, the available arguments are:
 ```bash
